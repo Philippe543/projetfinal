@@ -1,0 +1,1 @@
+$liste_city = $pdo->query("SELECT DISTINCT city FROM pictures ORDER BY city");
