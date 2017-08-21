@@ -109,7 +109,7 @@ echo '<pre>'; print_r($_POST); echo '</pre>';
 			<?php // récupérer toutes les catégories en BDD et les afficher dans une liste ul li sous forme de lien a href avec une information GET par exemple: ?categorie=pantalon 
 				/*
 				echo '<ul class="list-group">';
-				echo '<li class="list-group-item"><a href="boutique.php">Tous les articles</a></li>';
+				echo '<li class="list-group-item"><a href="index.php">Tous les articles</a></li>';
 				while($categorie = $liste_categorie->fetch(PDO::FETCH_ASSOC))
 				{
 					echo '<li class="list-group-item"><a href="?categorie=' . $categorie['categorie'] . '">' . $categorie['categorie'] . '</a></li>';
